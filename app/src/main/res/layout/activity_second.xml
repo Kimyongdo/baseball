@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_second"
+    android:padding="30dp"
+    android:background="@drawable/back"
+    >
+
+    <ImageView
+        android:id="@+id/baseballgame"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/firstbaseball"
+
+        />
+
+    <TextView
+        android:id="@+id/tvpressthebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRESS THE BUTTON"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/fisrtstartbtn"
+        android:layout_centerInParent="true"
+
+        />
+
+    <ImageView
+        android:id="@+id/fisrtstartbtn"
+        android:layout_width="125dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/fisrtstart"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
